@@ -11,7 +11,7 @@ namespace NewsMaker.Controllers
     {
         public ActionResult Index()
         {
-            List<Post> postsList = Post.GetPosts(2);
+            List<Post> postsList = Post.GetPosts(null);
             return View(postsList);
         }
 

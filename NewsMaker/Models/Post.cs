@@ -36,7 +36,7 @@ namespace NewsMaker.Models
             set { userId = value; }
         }
 
-        public static List<Post> GetPosts(int id)
+        public static List<Post> GetPosts(int? id)
         {
             return PostDAO.getPosts(id);
         }
