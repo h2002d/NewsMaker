@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsMaker", "NewsMaker\NewsMaker.csproj", "{5DD4D3F0-8898-4CB7-B900-099B931FDEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsMakerAdmin", "NewsMakerAdmin\NewsMakerAdmin.csproj", "{FF1D27FB-2A1D-4839-A324-27B79607F4CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5DD4D3F0-8898-4CB7-B900-099B931FDEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DD4D3F0-8898-4CB7-B900-099B931FDEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DD4D3F0-8898-4CB7-B900-099B931FDEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1D27FB-2A1D-4839-A324-27B79607F4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1D27FB-2A1D-4839-A324-27B79607F4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1D27FB-2A1D-4839-A324-27B79607F4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1D27FB-2A1D-4839-A324-27B79607F4CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
