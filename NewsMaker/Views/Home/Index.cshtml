@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<NewsMaker.Models.Post>
+@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Layouts/Main_Layout.cshtml";
 }
@@ -13,3 +14,10 @@
     իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, ինչպիսին է Aldus PageMaker-ը,
     որը ներառում է Lorem Ipsum-ի տարատեսակներ:
 </h2>
+
+@foreach (var m in @Model)
+{
+    <h1>@Html.Raw(m.Content)</h1>
+    <div>@m.CreateDate</div>
+}
+

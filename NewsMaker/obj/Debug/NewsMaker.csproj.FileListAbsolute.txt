@@ -20,3 +20,31 @@ c:\users\user pc\documents\visual studio 2013\Projects\NewsMaker\NewsMaker\bin\S
 c:\users\user pc\documents\visual studio 2013\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.csprojResolveAssemblyReference.cache
 c:\users\user pc\documents\visual studio 2013\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.dll
 c:\users\user pc\documents\visual studio 2013\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.pdb
+C:\Projects\NewsMaker\NewsMaker\bin\NewsMaker.dll.config
+C:\Projects\NewsMaker\NewsMaker\bin\NewsMaker.dll
+C:\Projects\NewsMaker\NewsMaker\bin\NewsMaker.pdb
+C:\Projects\NewsMaker\NewsMaker\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\NewsMaker\NewsMaker\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Projects\NewsMaker\NewsMaker\bin\Newtonsoft.Json.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Net.Http.Formatting.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Helpers.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Http.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Http.WebHost.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Mvc.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Razor.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.dll
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Razor.dll
+C:\Projects\NewsMaker\NewsMaker\bin\Newtonsoft.Json.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Net.Http.Formatting.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Helpers.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Http.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Http.WebHost.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Mvc.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Razor.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Razor.xml
+C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.csprojResolveAssemblyReference.cache
+C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.dll
+C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.pdb
