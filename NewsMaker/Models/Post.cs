@@ -40,7 +40,9 @@ namespace NewsMaker.Models
         {
             return PostDAO.getPosts(id);
         }
-
-
+        public bool SavePost()
+        {
+            return PostDAO.savePost(this);
+        }
     }
 }

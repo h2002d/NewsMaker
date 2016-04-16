@@ -45,6 +45,6 @@ C:\Projects\NewsMaker\NewsMaker\bin\System.Web.Razor.xml
 C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.xml
 C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\NewsMaker\NewsMaker\bin\System.Web.WebPages.Razor.xml
-C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.csprojResolveAssemblyReference.cache
 C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.dll
 C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.pdb
+C:\Projects\NewsMaker\NewsMaker\obj\Debug\NewsMaker.csprojResolveAssemblyReference.cache

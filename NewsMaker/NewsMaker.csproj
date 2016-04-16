@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
     <Compile Include="DAO\PostDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\NewsMaker.pubxml" />
+    <None Include="Properties\PublishProfiles\Syn.pubxml" />
     <None Include="Properties\PublishProfiles\vvb.pubxml" />
     <Content Include="Views\Home\About.cshtml" />
   </ItemGroup>

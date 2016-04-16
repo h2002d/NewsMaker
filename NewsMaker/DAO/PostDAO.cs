@@ -52,6 +52,33 @@ namespace NewsMaker.DAO
                     return null;
                 }
             }
+
+        }
+
+        public static bool savePost(Post newPost)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand("SP_SavePost", sqlConnection))
+                {
+                    try
+                    {
+                        sqlConnection.Open();
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        command.Parameters.AddWithValue("@PostContent", newPost.Content);
+                        command.Parameters.AddWithValue("@PostDate", newPost.CreateDate);
+                        command.Parameters.AddWithValue("@UserId", newPost.UserId);
+                        command.ExecuteNonQuery();
+
+                        return true;
+                    }
+                    catch (Exception ex)
+                    {
+                    }
+                    return false;
+                }
+            }
         }
 
     }
