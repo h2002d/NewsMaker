@@ -12,7 +12,8 @@ namespace NewsMaker.Models
         private string content;
         private DateTime createDate;
         private int userId;
-
+        private int type;
+        private string title;
 
         public int Id
         {
@@ -25,15 +26,29 @@ namespace NewsMaker.Models
             get { return content; }
             set { content = value; }
         }
+
         public DateTime CreateDate
         {
             get { return createDate; }
             set { createDate = value; }
         }
+
         public int UserId
         {
             get { return userId; }
             set { userId = value; }
+        }
+
+        public int Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+
+        public string Title
+        {
+            get { return title; }
+            set { title = value; }
         }
 
         public static List<Post> GetPosts(int? id)

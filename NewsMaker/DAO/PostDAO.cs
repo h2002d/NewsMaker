@@ -42,6 +42,8 @@ namespace NewsMaker.DAO
                             post.Content = rdr["PostContent"].ToString();
                             post.CreateDate = Convert.ToDateTime(rdr["PostDate"]);
                             post.UserId = Convert.ToInt32(rdr["UserId"]);
+                            post.Type = Convert.ToInt32(rdr["PostType"] == DBNull.Value ? 0 : rdr["PostType"]);
+                            post.Title = rdr["PostTitle"].ToString();
                             postList.Add(post);
                         }
                         return postList;
@@ -65,10 +67,19 @@ namespace NewsMaker.DAO
                     {
                         sqlConnection.Open();
                         command.CommandType = CommandType.StoredProcedure;
-
+                        if (newPost.Id == 0)
+                        {
+                            command.Parameters.AddWithValue("@PostId", DBNull.Value);
+                        }
+                        else
+                        {
+                            command.Parameters.AddWithValue("@PostId", newPost.Id);
+                        }
                         command.Parameters.AddWithValue("@PostContent", newPost.Content);
                         command.Parameters.AddWithValue("@PostDate", newPost.CreateDate);
                         command.Parameters.AddWithValue("@UserId", newPost.UserId);
+                        command.Parameters.AddWithValue("@PostType", newPost.Type);
+                        command.Parameters.AddWithValue("@PostTitle", newPost.Title);
                         command.ExecuteNonQuery();
 
                         return true;

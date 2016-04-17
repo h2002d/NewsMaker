@@ -18,24 +18,25 @@ namespace NewsMaker.Controllers
         }
 
         // GET api/post/5
-        public string Get(int id)
+        public List<Post> Get(int id)
         {
-            return "value";
+            List<Post> post = Post.GetPosts(id);
+            return post;
         }
 
-        // POST api/post
-        public void Post([FromBody]string value)
-        {
-        }
+        //// POST api/post
+        //public void Post([FromBody]string value)
+        //{
+        //}
 
-        // PUT api/post/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+        //// PUT api/post/5
+        //public void Put(int id, [FromBody]string value)
+        //{
+        //}
 
-        // DELETE api/post/5
-        public void Delete(int id)
-        {
-        }
+        //// DELETE api/post/5
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

@@ -1,0 +1,16 @@
+﻿@model NewsMaker.Models.Type
+
+@using (Ajax.BeginForm("SavePost", "Admin", new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        OnSuccess = "Success"
+    }))
+{
+    <h2>Type Name</h2>
+    @Html.TextAreaFor(x => x.TypeName);
+    <input type="submit" value="Save Post." />
+}
+<div style="width:500px;height:800px; background-color:#ff6a00;">
+    afgafsdgasdfgadfgadfgadf
+</div>
+

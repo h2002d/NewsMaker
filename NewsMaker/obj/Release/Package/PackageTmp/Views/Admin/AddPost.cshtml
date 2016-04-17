@@ -1,0 +1,30 @@
+﻿@model NewsMaker.Models.Post
+@{
+    ViewBag.Title = "AddPost";
+    Layout = "~/Views/Layouts/Admin_Layout.cshtml";
+}
+
+<h2>AddPost</h2>
+<script type="text/javascript">
+    function Success() {
+        alert('Post Uploaded Successfully');
+    }
+</script>
+
+@using (Ajax.BeginForm("SavePost", "Admin", new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        OnSuccess = "Success"
+    }))
+{
+    <h1>Title</h1>
+    @Html.TextBoxFor(x => x.Title)
+    <h2>Content</h2>
+    @Html.TextAreaFor(x => x.Content);
+    <p>UserId</p>
+    @Html.TextBoxFor(x => x.UserId)
+    <p>Type</p>
+    @Html.DropDownListFor(x => x.Type, (IEnumerable<SelectListItem>)ViewBag.Types, "-- Select Type --")
+    <br />
+    <input type="submit" value="Save Post." />
+}

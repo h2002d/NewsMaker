@@ -1,0 +1,34 @@
+﻿@model List<NewsMaker.Models.Type>
+@{
+    ViewBag.Title = "Types";
+    Layout = "~/Views/Layouts/Admin_Layout.cshtml";
+}
+<script type="text/javascript">
+    // put the script section somewhere appropriate in the page
+    $(document).ready(function () {
+        $('#myDropDown').change(function () {
+
+
+            /* Get the selected value of dropdownlist */
+            var selectedID = $(this).val();
+            $('#partialPlaceHolder').load('@Url.Action("TypePartial", "Admin")'+'/'+selectedID)
+            ///* Request the partial view with .get request. */
+            //$.get('/Admin/TypePartial/' + selectedID, function (data) {
+
+            //    /* data is the pure html returned from action method, load it to your page */
+            //    $('#partialPlaceHolder').html(data);
+            //    /* little fade in effect */
+            //    $('#partialPlaceHolder').fadeIn('fast');
+            //});
+
+        });
+    });
+
+</script>
+<h2>Types</h2>
+
+@Html.DropDownList("myDropDown", (IEnumerable<SelectListItem>)ViewBag.Types)
+<div id="partialPlaceHolder" class="container">
+    
+</div>
+
